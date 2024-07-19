@@ -1,14 +1,16 @@
-apply plugin: 'com.android.library'
+plugins {
+    id("com.android.library")
+    id("kotlin-android")
+}
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion '34.0.0'
-
-    namespace "androidx.recyclerview"
+    namespace = "androidx.recyclerview"
+    compileSdk = 34
 
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        encoding = "UTF-8"
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     defaultConfig {
