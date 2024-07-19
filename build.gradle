@@ -20,6 +20,6 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    api "androidx.core:core:1.12.0"
+    api "androidx.core:core:1.13.0"
     api 'androidx.customview:customview:1.1.0'
 }
