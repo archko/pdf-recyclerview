@@ -83,7 +83,7 @@ import androidx.core.view.accessibility.AccessibilityEventCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.core.widget.EdgeEffectCompat;
 import androidx.customview.view.AbsSavedState;
-import androidx.recyclerview.R;
+import androidx.recyclerview.a.R;
 import androidx.recyclerview.awidget.ARecyclerView.ItemAnimator.ItemHolderInfo;
 
 import cn.archko.pdf.widgets.Flinger;
